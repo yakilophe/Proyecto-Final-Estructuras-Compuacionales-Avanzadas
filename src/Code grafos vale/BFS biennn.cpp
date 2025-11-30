@@ -1,12 +1,12 @@
-#include <iostream> 
+    #include <iostream> 
 #include <vector> 
 #include <queue> 
 using namespace std;
 
 int main() { 
 int n; 
-// número de nodos 
-cout << "Ingresa el número de nodos del grafo: "; 
+// nï¿½mero de nodos 
+cout << "Ingresa el nï¿½mero de nodos del grafo: "; 
 cin >> n;
 
 // Crear matriz de adyacencia
@@ -46,3 +46,4 @@ return 0;
 
 }
 
+//pruebaaaa kjijiij lalalla jijji lalalla lalla jisjajbhnjsdsds
