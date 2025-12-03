@@ -1,288 +1,270 @@
-# 📊 Laboratorio de Algoritmos de Grafos
+Para que tu página web se lance desde GitHub, necesitas crear un repositorio y configurarlo como **GitHub Pages**. Aquí te explico paso a paso cómo hacerlo:
 
-<div align="center">
+## 🚀 Guía para Publicar tu Página en GitHub Pages
 
-![Banner de Grafos](https://img.shields.io/badge/GRAFOS-ALGORITMOS-blueviolet?style=for-the-badge&logo=graphql&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3.8%2B-blue?style=for-the-badge&logo=python)
-![C++](https://img.shields.io/badge/C%2B%2B-17%2B-blue?style=for-the-badge&logo=c%2B%2B)
-![Java](https://img.shields.io/badge/Java-11%2B-orange?style=for-the-badge&logo=openjdk)
+### **Paso 1: Crear un Repositorio en GitHub**
+1. Ve a [github.com](https://github.com) y haz clic en **"New"**
+2. Nombra tu repositorio (ej: `grafos-lab` o `algoritmos-grafos`)
+3. Selecciona **"Public"** (público)
+4. **NO** inicialices con README, .gitignore o licencia
+5. Haz clic en **"Create repository"**
 
-**Explorador Interactivo de Algoritmos de Grafos - Visualización en Tiempo Real**
+### **Paso 2: Configurar Git en tu Computadora**
+```bash
+# Si no tienes Git instalado, descárgalo de: https://git-scm.com/
 
-[![GitHub](https://img.shields.io/badge/GitHub-Repositorio-black?style=for-the-badge&logo=github)](https://github.com/tu-usuario/grafos-lab)
-[![Live Demo](https://img.shields.io/badge/Demo-Interactiva-pink?style=for-the-badge)](https://tu-usuario.github.io/grafos-lab)
-
-</div>
-
-## 🎯 Objetivo del Proyecto
-
-Implementar y visualizar algoritmos fundamentales de teoría de grafos aplicados a diferentes tipos de estructuras, permitiendo comprender su funcionamiento mediante una interfaz interactiva y educativa.
-
-## 📋 Características Principales
-
-### 🚀 **Algoritmos Implementados**
-- ✅ **DFS (Depth-First Search)** - Recorrido en profundidad
-- ✅ **BFS (Breadth-First Search)** - Recorrido en anchura  
-- ✅ **Componentes Conexas** - Detección de componentes conectadas
-- ✅ **Caminos Más Cortos** - Algoritmos de Dijkstra/Bellman-Ford
-- ✅ **Verificación de Árbol** - Determina si un grafo es árbol
-- ✅ **Árbol de Expansión Mínima** - Algoritmo de Prim
-- ✅ **Grafo Bipartito** - Verificación mediante 2-coloreo
-- ✅ **Pareo (Matching)** - Matching maximal en grafos
-
-### 🎨 **Tipos de Grafos Soportados**
-| Tipo | Nodos | Aristas | Dirigido | Ponderado |
-|------|-------|---------|----------|-----------|
-| **Grafo 1** | 5 | 12 | ❌ No | ❌ No |
-| **Grafo 2** | 5 | 6 | ✅ Sí | ❌ No |
-| **Grafo 3** | 5 | 12 | ❌ No | ✅ Sí |
-| **Grafo 4** | 5 | 6 | ✅ Sí | ✅ Sí |
-
-### ✨ **Funcionalidades Clave**
-- **Visualización Interactiva**: Representación gráfica de grafos con animaciones paso a paso
-- **Selección Dinámica**: Cambia entre algoritmos y tipos de grafos en tiempo real
-- **Análisis de Complejidad**: Información Big-O para cada algoritmo
-- **Compatibilidad Inteligente**: Los algoritmos solo se habilitan para grafos compatibles
-- **Panel Informativo**: Descripción detallada de cada algoritmo y sus pasos
-- **Diseño Responsive**: Interfaz adaptativa para diferentes dispositivos
-
-## 🏗️ Estructura del Proyecto
-
-```
-grafos-lab/
-│
-├── 📁 src/
-│   ├── graph_algorithms.py    # Implementación de algoritmos
-│   ├── graph_visualizer.py    # Visualización de grafos
-│   ├── graph_types.py         # Definición de estructuras de grafos
-│   └── main.py                # Punto de entrada principal
-│
-├── 📁 tests/
-│   ├── test_algorithms.py     # Pruebas unitarias
-│   ├── test_graphs.py         # Pruebas de estructuras
-│   └── test_visualization.py  # Pruebas de interfaz
-│
-├── 📁 docs/
-│   ├── project_report.pdf     # Reporte completo del proyecto
-│   ├── complexity_analysis.md # Análisis Big-O detallado
-│   └── user_manual.md         # Manual de usuario
-│
-├── 📁 assets/
-│   ├── screenshots/           # Capturas del proyecto
-│   └── diagrams/              # Diagramas de flujo
-│
-├── 📄 index.html              # Interfaz web principal
-├── 📄 README.md               # Este archivo
-├── 📄 requirements.txt        # Dependencias (Python)
-├── 📄 package.json            # Dependencias (Node.js si aplica)
-└── 📄 .gitignore              # Archivos ignorados por Git
+# Configurar tu usuario (solo primera vez)
+git config --global user.name "Tu Nombre"
+git config --global user.email "tu-email@ejemplo.com"
 ```
 
-## 🚀 Instalación y Uso
+### **Paso 3: Subir tu Código a GitHub**
 
-### 🔧 Requisitos Previos
-- Python 3.8+ o Node.js 14+
-- Navegador web moderno (Chrome, Firefox, Edge)
-- Git para control de versiones
+Desde la carpeta donde tienes tu archivo HTML:
 
-### 📥 Instalación Rápida
+```bash
+# Inicializar repositorio local
+git init
 
+# Agregar todos los archivos
+git add .
+
+# Hacer commit inicial
+git commit -m "Primer commit: Página web de algoritmos de grafos"
+
+# Conectar con el repositorio remoto (cambia la URL)
+git remote add origin https://github.com/TU-USUARIO/NOMBRE-REPOSITORIO.git
+
+# Subir al repositorio
+git branch -M main
+git push -u origin main
+```
+
+### **Paso 4: Activar GitHub Pages**
+
+1. Ve a tu repositorio en GitHub
+2. Haz clic en **"Settings"** (Configuraciones)
+3. En el menú izquierdo, busca **"Pages"**
+4. En **"Source"**, selecciona:
+   - Branch: **`main`**
+   - Folder: **`/ (root)`**
+5. Haz clic en **"Save"**
+6. Espera unos minutos (máximo 5-10 minutos)
+
+### **Paso 5: Obtener tu Enlace**
+
+Una vez configurado, tu página estará disponible en:
+```
+https://TU-USUARIO.github.io/NOMBRE-REPOSITORIO/
+```
+
+## 📁 Estructura Recomendada para tu Proyecto
+
+Crea esta estructura de archivos en tu computadora:
+
+```
+algoritmos-grafos/
+├── index.html          # Tu página web principal (el código que te di)
+├── style.css          # Archivo CSS separado (opcional)
+├── script.js          # Archivo JavaScript separado (opcional)
+├── README.md          # Documentación del proyecto
+├── assets/            # Carpeta para imágenes, iconos, etc.
+│   ├── screenshot.png
+│   └── logo.png
+└── .gitignore         # Archivo para ignorar archivos innecesarios
+```
+
+## ✨ Código Mejorado para GitHub Pages
+
+Te recomiendo separar el código en archivos para mejor organización. Aquí está tu HTML modificado:
+
+### **index.html**
+```html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explorador de Algoritmos de Grafos</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <!-- El contenido de tu página web aquí -->
+    <script src="script.js"></script>
+</body>
+</html>
+```
+
+### **style.css** (crea este archivo)
+```css
+:root {
+    --tech-blue: #0a0e29;
+    --tech-purple: #6a11cb;
+    --tech-pink: #ff2a6d;
+    --tech-cyan: #00d4ff;
+    --light-bg: #f8f9ff;
+    --card-bg: #121633;
+    --text-light: #e0e0ff;
+    --text-dark: #0a0e29;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: var(--tech-blue);
+    color: var(--text-light);
+    line-height: 1.6;
+    overflow-x: hidden;
+    background-image: 
+        radial-gradient(circle at 10% 20%, rgba(106, 17, 203, 0.15) 0%, transparent 20%),
+        radial-gradient(circle at 90% 80%, rgba(255, 42, 109, 0.15) 0%, transparent 20%);
+}
+
+/* ... (todo el resto del CSS que te proporcioné) ... */
+```
+
+### **script.js** (crea este archivo)
+```javascript
+// Definición de los grafos
+const graphs = {
+    1: {
+        name: "No Dirigido - No Ponderado",
+        directed: false,
+        weighted: false,
+        nodes: 5,
+        edges: 12,
+        connections: [
+            [0, 1], [0, 4], [0, 3],
+            [1, 0], [1, 3], [1, 2],
+            [2, 1], [2, 3],
+            [3, 2], [3, 1], [3, 0],
+            [4, 0]
+        ]
+    },
+    // ... (todo el resto del JavaScript que te proporcioné)
+};
+
+// ... (todo el resto del código JavaScript)
+```
+
+## 🎯 Pasos Finales para la Entrega
+
+### **1. Crea un README.md atractivo**
+En el mismo directorio, crea un archivo `README.md` con:
+
+```markdown
+# 🚀 Explorador de Algoritmos de Grafos
+
+[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Live-brightgreen)](https://TU-USUARIO.github.io/NOMBRE-REPOSITORIO/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
+## 🌐 Demo en Vivo
+**¡Prueba la aplicación aquí!** 👉 [https://TU-USUARIO.github.io/NOMBRE-REPOSITORIO/](https://TU-USUARIO.github.io/NOMBRE-REPOSITORIO/)
+
+## 📖 Descripción
+Interfaz web interactiva para visualizar algoritmos de grafos en tiempo real.
+
+## 🛠️ Tecnologías Utilizadas
+- HTML5, CSS3, JavaScript (ES6+)
+- Font Awesome para iconos
+- GitHub Pages para hosting
+
+## 🚀 Cómo Ejecutar Localmente
 ```bash
 # Clonar el repositorio
-git clone https://github.com/tu-usuario/grafos-lab.git
+git clone https://github.com/TU-USUARIO/NOMBRE-REPOSITORIO.git
 
-# Navegar al directorio
-cd grafos-lab
-
-# Instalar dependencias (Python)
-pip install -r requirements.txt
-
-# O instalar dependencias (Node.js)
-npm install
-
-# Ejecutar la aplicación
-python main.py
-# o
-npm start
+# Abrir el archivo
+cd NOMBRE-REPOSITORIO
+open index.html
 ```
 
-### 🌐 Uso Web (Recomendado)
-1. Abrir `index.html` en cualquier navegador web
-2. Seleccionar un tipo de grafo de las opciones disponibles
-3. Elegir un algoritmo de la lista (solo se habilitan los compatibles)
-4. Hacer clic en "Ejecutar Algoritmo" para ver la animación paso a paso
-5. Usar "Reiniciar" para volver al estado inicial
-
-## 🧪 Metodología de Desarrollo
-
-### 🔄 Scrum/Kanban Implementado
-Utilizamos **Scrum** con sprints de 1 semana para el desarrollo iterativo:
-
-| Sprint | Fecha | Objetivo | Estado |
-|--------|-------|----------|--------|
-| Sprint 1 | 18-24 Nov | Análisis y diseño inicial | ✅ Completado |
-| Sprint 2 | 25 Nov-1 Dic | Implementación de algoritmos base | ✅ Completado |
-| Sprint 3 | 2-8 Dic | Interfaz web y visualización | ✅ En progreso |
-| Sprint 4 | 9-15 Dic | Pruebas y documentación | 📅 Planificado |
-
-### 📊 Tablero Kanban (Trello/GitHub Projects)
+## 📞 Contacto
+Para cualquier pregunta o sugerencia, abre un issue en GitHub.
 ```
-TODO → IN PROGRESS → REVIEW → DONE
+
+### **2. Añade un archivo .gitignore**
+Crea un archivo llamado `.gitignore` con:
 ```
-- **Tareas asignadas** con responsables claros
-- **Fechas límite** específicas para cada tarea
-- **Seguimiento diario** de progreso
+# Sistema
+.DS_Store
+Thumbs.db
 
-### 🗂️ Control de Versiones con Git
-- **Branches por funcionalidad**: `feature/dfs`, `feature/visualization`
-- **Pull Requests** con revisión de código
-- **Commits semánticos**: `feat:`, `fix:`, `docs:`, `test:`
-- **Bitácora de commits** disponible en `/docs/commit_log.md`
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
 
-## 📈 Análisis de Complejidad (Big-O)
+# Node.js
+node_modules/
+npm-debug.log*
+```
 
-| Algoritmo | Tiempo | Espacio | Notas |
-|-----------|--------|---------|-------|
-| **DFS** | O(V + E) | O(V) | V = vértices, E = aristas |
-| **BFS** | O(V + E) | O(V) | Ideal para caminos cortos no ponderados |
-| **Componentes Conexas** | O(V + E) | O(V) | Solo grafos no dirigidos |
-| **Caminos Cortos** | O(V·E) | O(V) | Bellman-Ford para pesos negativos |
-| **Verificación Árbol** | O(V + E) | O(V) | Verifica conexidad y ciclos |
-| **MST (Prim)** | O(E log V) | O(V + E) | Solo grafos no dirigidos ponderados |
-| **Bipartito** | O(V + E) | O(V) | Coloreo con 2 colores |
-| **Matching** | O(E√V) | O(V + E) | Hopcroft-Karp para bipartitos |
-
-## 🎓 Temas Cubiertos por el Proyecto
-
-### a. Representación de Grafos
-- **Matriz de adyacencia** - Para grafos densos
-- **Lista de adyacencia** - Para grafos dispersos (implementada)
-- **Matriz de incidencia** - Para análisis teórico
-
-### b. Algoritmos de Recorrido
-- **DFS** - Implementado con pila (iterativa/recursiva)
-- **BFS** - Implementado con cola
-
-### c. Componentes Conexas
-- **No dirigidas** - DFS/BFS para encontrar componentes
-- **Fuertemente conexas (SCC)** - Kosaraju/Tarjan (futura implementación)
-
-### d. Caminos Más Cortos
-- **Dijkstra** - Para pesos no negativos
-- **Bellman-Ford** - Para pesos negativos
-- **Floyd-Warshall** - Todos contra todos (futura implementación)
-
-### e. Verificación de Árbol
-- **Conexidad** - BFS/DFS para verificar si es conexo
-- **Sin ciclos** - Detección de ciclos en DFS
-- **Aristas = V-1** - Condición necesaria para árboles
-
-### f. Árbol de Expansión Mínima
-- **Prim** - Implementado con heap binario
-- **Kruskal** - Con estructura Union-Find (futura implementación)
-
-### g. Grafo Bipartito
-- **2-coloreo** - BFS/DFS con asignación de colores
-- **Detección de ciclos impares** - Condición de no bipartito
-
-### h. Pareo (Matching)
-- **Matching maximal** - Algoritmo greedy
-- **Matching máximo** - Hopcroft-Karp para bipartitos (futura implementación)
-
-## 👥 Integrantes del Equipo y Roles
-
-| Nombre | Rol | Responsabilidades |
-|--------|-----|-------------------|
-| **Integrante 1** | Líder Técnico | Arquitectura, algoritmos core |
-| **Integrante 2** | Desarrollador Frontend | Interfaz web, visualización |
-| **Integrante 3** | Desarrollador Backend | Lógica de algoritmos, pruebas |
-| **Integrante 4** | Documentación | Reporte, análisis Big-O, manuales |
-| **Integrante 5** | QA/Testing | Pruebas, control de calidad |
-
-## 📊 Evidencia del Proyecto
-
-### 🎨 Capturas del Tablero Kanban
-![Tablero Kanban](assets/screenshots/kanban_board.png)
-
-### 🔗 Repositorio Git
-- **URL**: [https://github.com/tu-usuario/grafos-lab](https://github.com/tu-usuario/grafos-lab)
-- **Commits**: 50+ commits semánticos
-- **Branches**: 8+ branches por funcionalidad
-- **Issues**: 15+ issues documentados y cerrados
-
-### 📈 Gráfico de Commits
-![Gráfico de Commits](assets/screenshots/commit_graph.png)
-
-## 🧪 Ejecución de Pruebas
-
+### **3. Sube todo a GitHub**
 ```bash
-# Ejecutar todas las pruebas
-python -m pytest tests/
+# Añadir todos los archivos
+git add .
 
-# Ejecutar pruebas específicas
-python -m pytest tests/test_algorithms.py
+# Hacer commit
+git commit -m "Agregar página web completa con CSS y JS separados"
 
-# Ejecutar con cobertura
-python -m pytest --cov=src tests/
-
-# Pruebas de integración
-python -m pytest tests/integration/
+# Subir cambios
+git push origin main
 ```
 
-## 📚 Aprendizajes y Conclusiones
+### **4. Verifica que funcione**
+1. Ve a: `https://TU-USUARIO.github.io/NOMBRE-REPOSITORIO/`
+2. Si ves tu página, ¡funciona!
+3. Si no carga, espera unos minutos y recarga
 
-### ✅ Logros Alcanzados
-1. **Implementación completa** de 8 algoritmos fundamentales de grafos
-2. **Visualización interactiva** que facilita la comprensión de algoritmos
-3. **Análisis riguroso** de complejidad computacional para cada algoritmo
-4. **Metodología ágil** aplicada correctamente con evidencia documentada
-5. **Control de versiones** profesional con Git y GitHub
+## 🔧 Solución de Problemas Comunes
 
-### 🔍 Hallazgos Técnicos
-- Los **grafos no dirigidos** permiten más algoritmos que los dirigidos
-- La **elección de representación** (lista vs matriz) afecta significativamente el rendimiento
-- La **visualización animada** mejora la comprensión en ≈40% según pruebas con usuarios
-- Los **algoritmos de matching** son notablemente más complejos en grafos no bipartitos
+### **Problema: La página no se actualiza**
+```bash
+# Forzar actualización en GitHub Pages
+git commit --allow-empty -m "Trigger GitHub Pages rebuild"
+git push
+```
 
-### 🎯 Recomendaciones para Futuras Mejoras
-1. Implementar algoritmos para **grafos con pesos negativos**
-2. Añadir **más tipos de grafos** (completos, bipartitos completos, árboles)
-3. Implementar **algoritmos paralelos** para procesamiento de grafos grandes
-4. Crear **modo comparativo** para analizar diferentes algoritmos en el mismo grafo
-5. Desarrollar **API REST** para consumo por otras aplicaciones
+### **Problema: CSS/JS no carga**
+- Verifica que las rutas en `index.html` sean correctas
+- Asegúrate de que los archivos estén en el repositorio
 
-## 📖 Bibliografía
+### **Problema: Error 404**
+- Espera 10-15 minutos después del primer push
+- Verifica que GitHub Pages esté activado en Settings → Pages
 
-1. **Cormen, T. H.** (2009). *Introduction to Algorithms* (3rd ed.). MIT Press.
-2. **Sedgewick, R.** (2011). *Algorithms in C++: Part 5 Graph Algorithms*. Addison-Wesley.
-3. **Skiena, S. S.** (2008). *The Algorithm Design Manual* (2nd ed.). Springer.
-4. **Goodrich, M. T.** (2014). *Data Structures and Algorithms in Python*. Wiley.
-5. **Documentación oficial** de Python, C++, y bibliotecas de visualización.
+## 📱 Bonus: Agregar un Favicon
 
-## 📞 Contacto y Soporte
+Crea un icono rápido con [Favicon.io](https://favicon.io/) y añádelo:
 
-Para preguntas, sugerencias o reporte de problemas:
+1. Descarga un favicon.ico
+2. Ponlo en la carpeta `assets/`
+3. Añade en tu HTML:
+```html
+<link rel="icon" href="assets/favicon.ico" type="image/x-icon">
+```
 
-- **Issues de GitHub**: [https://github.com/tu-usuario/grafos-lab/issues](https://github.com/tu-usuario/grafos-lab/issues)
-- **Email del equipo**: grafos-lab@universidad.edu
-- **Horario de consulta**: Lunes a Viernes, 9:00 - 18:00
+## 🎉 ¡Listo para Entregar!
 
-## 📄 Licencia
+**Para tu entrega del proyecto, incluye:**
 
-Este proyecto está bajo la licencia MIT. Ver el archivo [LICENSE](LICENSE) para más detalles.
+1. ✅ **Link de GitHub Pages** en el README
+2. ✅ **Link del repositorio** completo
+3. ✅ **Capturas de pantalla** de la página funcionando
+4. ✅ **Evidencia** de que todos los integrantes hicieron commits
 
----
+**En el PDF del proyecto incluye:**
+- El link a la página web funcionando
+- Capturas del código funcionando en GitHub Pages
+- Explicación de cómo se configuró GitHub Pages
 
-<div align="center">
-
-### ✨ "Los grafos son el lenguaje universal de las relaciones" ✨
-
-**Desarrollado con ❤️ para la materia de Estructuras Computacionales Avanzadas**
-
-**Centro de Ciencias Básicas - Departamento de Ciencias de la Computación**
-
-**Academia de Inteligencia Artificial - ICI 3º Semestre**
-
-**Período Agosto-Diciembre 2025**
-
-</div>
+¡Tu página web estará disponible para cualquiera con el link y podrás mostrarla en tu defensa del proyecto! 🚀
