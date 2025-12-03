@@ -1,4 +1,4 @@
-# 🎓 Proyecto Final: Implementación de Algoritmos de Grafos en C++ con Interfaz Web Interactiva
+#  Proyecto Final: Implementación de Algoritmos de Grafos en C++ con Interfaz Web Interactiva
 
 <div align="center">
 
@@ -17,42 +17,42 @@
 
 </div>
 
-## 🌐 **Interfaz Web Interactiva**
+##  **Interfaz Web Interactiva**
 
-### 🚀 **Demo en Vivo**
+###  **Demo en Vivo**
 **Accede a la interfaz web interactiva aquí:**  
 👉 **[https://yakilophe.github.io/Proyecto-Final-Estructuras-Compuacionales-Avanzadas/](https://yakilophe.github.io/Proyecto-Final-Estructuras-Compuacionales-Avanzadas/)**
 
-### 🎮 **Características de la Interfaz Web**
+###  **Características de la Interfaz Web**
 
 <div align="center">
   <img src="https://via.placeholder.com/800x400/4A90E2/FFFFFF?text=Interfaz+Interactiva+de+Grafos" alt="Interfaz Interactiva Preview" width="80%">
 </div>
 
 #### **Funcionalidades Principales:**
-1. **📊 Visualización de Grafos**
+1. ** Visualización de Grafos**
    - Representación gráfica interactiva
    - Zoom y arrastre del lienzo
    - Colores diferenciados por tipo de nodo/arista
 
-2. **🖱️ Creación Interactiva**
+2. ** Creación Interactiva**
    - Click para agregar nodos
    - Drag & drop para crear aristas
    - Panel de propiedades para pesos y direcciones
 
-3. **⚡ Ejecución de Algoritmos en Tiempo Real**
+3. ** Ejecución de Algoritmos en Tiempo Real**
    - Selección de algoritmos desde menú desplegable
    - Visualización paso a paso de la ejecución
    - Animaciones para recorridos (DFS/BFS)
    - Resaltado de caminos más cortos
 
-4. **📈 Resultados Visuales**
+4. ** Resultados Visuales**
    - Panel de estadísticas en tiempo real
    - Tabla de distancias (Dijkstra, Bellman-Ford)
    - Árbol de expansión mínima visual
    - Componentes conexas coloreadas
 
-5. **💾 Gestión de Grafos**
+5. ** Gestión de Grafos**
    - Guardar/descargar grafos como JSON
    - Cargar grafos predefinidos
    - Plantillas de grafos comunes
@@ -60,12 +60,12 @@
 ### **Estructura de la Interfaz Web**
 ```
 index.html
-├── 🎨 CSS/
+├──  CSS/
 │   ├── styles.css          # Estilos principales
 │   ├── graph-visualizer.css # Estilos específicos para visualización
 │   └── animations.css      # Animaciones CSS3
 │
-├── ⚙️ JavaScript/
+├── JavaScript/
 │   ├── main.js             # Lógica principal
 │   ├── graph-visualizer.js # Visualización de grafos con Canvas
 │   ├── algorithms/         # Implementación de algoritmos en JS
@@ -83,18 +83,10 @@ index.html
 │       ├── graph-generator.js
 │       └── performance-monitor.js
 │
-├── 📁 assets/              # Recursos
-│   ├── images/             # Iconos e imágenes
-│   ├── fonts/              # Fuentes personalizadas
-│   └── sounds/             # Efectos de sonido (opcional)
-│
-└── 📁 examples/            # Grafos de ejemplo
-    ├── basic-graphs.json
-    ├── weighted-graphs.json
-    └── special-graphs.json
+
 ```
 
-## 📋 **Resumen del Proyecto**
+##  **Proyecto:**
 
 Implementación completa y profesional de algoritmos fundamentales de teoría de grafos en C++ moderno (C++17), complementada con una **interfaz web interactiva** para visualización y ejecución en tiempo real. Desarrollada como proyecto final para la materia de **Estructuras Computacionales Avanzadas**.
 
@@ -102,7 +94,7 @@ Implementación completa y profesional de algoritmos fundamentales de teoría de
 1. **Backend en C++**: Algoritmos optimizados para alto rendimiento
 2. **Frontend Web**: Interfaz interactiva para aprendizaje y experimentación
 
-## 🎯 **Objetivos Académicos**
+##  **Objetivos Académicos**
 
 1. Implementar representaciones eficientes de grafos en C++ (matrices de adyacencia, listas de adyacencia)
 2. Desarrollar algoritmos fundamentales de teoría de grafos con análisis Big-O
@@ -111,7 +103,7 @@ Implementación completa y profesional de algoritmos fundamentales de teoría de
 5. Crear pruebas unitarias exhaustivas para garantizar la corrección de los algoritmos
 6. Documentar profesionalmente el proyecto siguiendo estándares académicos
 
-## 🏗️ **Estructura del Proyecto Completa**
+##  **Estructura del Proyecto Completa**
 
 ```
 Proyecto-Final-Estructuras-Compuacionales-Avanzadas/
@@ -319,7 +311,7 @@ Proyecto-Final-Estructuras-Compuacionales-Avanzadas/
 - **Ejemplos predefinidos**
 - **Modo aprendizaje** con explicaciones
 
-## 🎮 **Cómo Usar la Interfaz Web**
+## **Cómo Usar la Interfaz Web**
 
 ### **Acceso Rápido:**
 1. **Visita la demo en vivo:** [https://yakilophe.github.io/Proyecto-Final-Estructuras-Compuacionales-Avanzadas/](https://yakilophe.github.io/Proyecto-Final-Estructuras-Compuacionales-Avanzadas/)
@@ -534,7 +526,7 @@ loadExample('weighted-network');
 loadExample('bipartite-example');
 ```
 
-## 💻 **Ejemplos de Uso**
+##  **Ejemplos de Uso**
 
 ### **Ejemplo 1: Uso de la Interfaz Web**
 ```html
@@ -620,7 +612,7 @@ fileInput.addEventListener('change', (e) => {
 3. **Lazy evaluation** para grafos grandes
 4. **Canvas optimizado** con requestAnimationFrame
 
-## 🧪 **Pruebas y Validación**
+##  **Pruebas y Validación**
 
 ### **Cobertura de Pruebas**
 ```bash
@@ -670,7 +662,7 @@ La interfaz web incluye:
 - **Ejemplos animados** para cada algoritmo
 - **Referencia de API** en tiempo real
 
-## 👥 **Metodología de Desarrollo**
+##  **Metodología de Desarrollo**
 
 ### **Scrum Implementado**
 - **Sprint 1** (18-24 Nov): Diseño de arquitectura e interfaz web
@@ -684,7 +676,7 @@ La interfaz web incluye:
 - **Tests E2E**: Pruebas de interfaz completa
 - **Estándares de Código**: Google C++ Style Guide + ESLint para JS
 
-## 🏆 **Resultados y Hallazgos**
+## **Resultados y Hallazgos**
 
 ### **Eficiencia Comparativa**
 | Algoritmo | Tiempo C++ (ms) | Tiempo JS (ms) | Memoria C++ (KB) | Memoria JS (MB) |
@@ -702,7 +694,7 @@ La interfaz web incluye:
 3. **Web Workers** mejoran la responsividad de la interfaz en 60%
 4. **Canvas 2D vs WebGL**: Canvas es suficiente para grafos hasta 1000 nodos
 
-## 🔮 **Trabajo Futuro**
+## **Trabajo Futuro**
 
 ### **Mejoras Planeadas**
 1. **WebAssembly** para ejecutar código C++ en el navegador
@@ -717,7 +709,7 @@ La interfaz web incluye:
 - [ ] **API pública** para uso programático
 - [ ] **Plugins** para algoritmos personalizados
 
-## 📄 **Licencia**
+## **Licencia**
 
 Este proyecto está bajo la **Licencia MIT**. Ver archivo [LICENSE](LICENSE) para más detalles.
 
@@ -730,7 +722,7 @@ Permiso concedido, libre de cargos, a cualquier persona que obtenga una copia
 de este software y los archivos de documentación asociados...
 ```
 
-## 👥 **Créditos y Reconocimientos**
+## **Créditos y Reconocimientos**
 
 ### **Equipo de Desarrollo**
 | Nombre | Rol | Contribuciones Principales |
@@ -757,11 +749,10 @@ de este software y los archivos de documentación asociados...
 
 <div align="center">
 
-## 🎓 **Proyecto Final - Estructuras Computacionales Avanzadas**
+## **Proyecto Final - Estructuras Computacionales Avanzadas**
 
 **Centro de Ciencias Básicas**  
-**Departamento de Ciencias de la Computación**  
-**Academia de Inteligencia Artificial**  
+**Departamento de Ciencias de la Computación**   
 **ICI - Tercer Semestre**  
 **Período: Agosto - Diciembre 2025**
 
@@ -782,9 +773,9 @@ de este software y los archivos de documentación asociados...
 
 <div align="center">
 
-## 🌐 **¡Prueba la Interfaz Web Ahora!**
+## **¡Prueba la Interfaz Web Ahora!**
 
-### 👉 [https://yakilophe.github.io/Proyecto-Final-Estructuras-Compuacionales-Avanzadas/](https://yakilophe.github.io/Proyecto-Final-Estructuras-Compuacionales-Avanzadas/)
+### [https://yakilophe.github.io/Proyecto-Final-Estructuras-Compuacionales-Avanzadas/](https://yakilophe.github.io/Proyecto-Final-Estructuras-Compuacionales-Avanzadas/)
 
 ### ⭐ **¡Si este proyecto te resulta útil, considera darle una estrella en GitHub!** ⭐
 
