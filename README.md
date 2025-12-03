@@ -9,7 +9,7 @@
 
 **Explorador Interactivo de Algoritmos de Grafos - Visualización en Tiempo Real**
 
-[![GitHub](https://img.shields.io/badge/GitHub-Repositorio-black?style=for-the-badge&logo=github)](https://github.com/tu-usuario/grafos-lab)
+[![GitHub](https://img.shields.io/badge/GitHub-Repositorio-black?style=for-the-badge&logo=github)](https://github.com/yakilophe/Proyecto-Final-Estructuras-Compuacionales-Avanzadas/blob/main/src/index.html)
 [![Live Demo](https://img.shields.io/badge/Demo-Interactiva-pink?style=for-the-badge)](https://tu-usuario.github.io/grafos-lab)
 
 </div>
