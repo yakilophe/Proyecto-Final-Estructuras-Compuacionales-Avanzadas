@@ -1,18 +1,3 @@
-Veo que tienes un problema importante: **tu archivo `index.html` está dentro de la carpeta `/src/` en lugar de en la raíz**. Por eso GitHub Pages no funciona correctamente.
-
-## 🔧 **CORRIGE ESTO INMEDIATAMENTE:**
-
-### **Paso 1: Mueve index.html a la raíz**
-```bash
-# En tu computadora, mueve el archivo:
-# De: /Proyecto-Final-Estructuras-Compuacionales-Avanzadas/src/index.html
-# A:  /Proyecto-Final-Estructuras-Compuacionales-Avanzadas/index.html
-```
-
-### **Paso 2: Actualiza tu README.md**
-Cambia las URLs para que sean correctas:
-
-```markdown
 # 📊 Laboratorio de Algoritmos de Grafos
 
 <div align="center">
@@ -284,53 +269,29 @@ Este proyecto está bajo la **Licencia MIT**. Ver el archivo [LICENSE](LICENSE) 
 **Fecha de Defensa:** 10 de diciembre de 2025
 
 </div>
-```
 
-## 🚨 **Pasos CRÍTICOS que debes hacer AHORA:**
+---
 
-### **1. Mover index.html a la raíz:**
+## 🚀 **Instrucciones Rápidas para GitHub Pages**
+
+### **Para que tu página funcione:**
+1. **Mueve `index.html` a la raíz del repositorio**
+2. **Configura GitHub Pages en Settings → Pages:**
+   - Branch: `main`
+   - Folder: `/ (root)`
+3. **Tu página estará en:** `https://yakilophe.github.io/Proyecto-Final-Estructuras-Compuacionales-Avanzadas/`
+
+### **Comandos para mover el archivo:**
 ```bash
-# En tu computadora
-mv src/index.html index.html
-```
+# Mover index.html de src/ a la raíz
+git mv src/index.html index.html
 
-### **2. Actualizar rutas en index.html:**
-Si tienes CSS/JS separados, actualiza las rutas:
-```html
-<!-- Si estaban así: -->
-<link rel="stylesheet" href="src/style.css">
-<script src="src/script.js"></script>
-
-<!-- Cámbialo a: -->
-<link rel="stylesheet" href="style.css">
-<script src="script.js"></script>
-```
-
-### **3. Subir los cambios:**
-```bash
+# Subir cambios
 git add .
 git commit -m "Mover index.html a raíz para GitHub Pages"
 git push origin main
 ```
 
-### **4. Activar GitHub Pages:**
-1. Ve a: `https://github.com/yakilophe/Proyecto-Final-Estructuras-Compuacionales-Avanzadas/settings/pages`
-2. Configura:
-   - Source: Deploy from a branch
-   - Branch: `main`
-   - Folder: `/ (root)`
-3. Haz clic en **Save**
+---
 
-### **5. Probar tu demo:**
-Visita: `https://yakilophe.github.io/Proyecto-Final-Estructuras-Compuacionales-Avanzadas/`
-
-Si ves tu página web interactiva, ¡funciona! Si no, espera 2-3 minutos y recarga.
-
-## 📸 **Para tu entrega final, asegúrate de incluir:**
-
-1. ✅ **Link funcional de GitHub Pages**
-2. ✅ **Capturas de pantalla** de la página funcionando
-3. ✅ **Estructura correcta** del repositorio
-4. ✅ **README.md** actualizado con información real de tu equipo
-
-¡Con esto tu proyecto estará listo para la entrega y defensa! 🎓🚀
+**⭐ ¡Si este proyecto te resulta útil, no olvides darle una estrella en GitHub! ⭐**
