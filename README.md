@@ -5,105 +5,112 @@
 ![GIF relacionado con grafos](https://th.bing.com/th/id/R.18a4949fc9c8067172d3b96e302e7097?rik=%2fLZCQFlB6A7KlQ&pid=ImgRaw&r=0)
 
 <div align="center" style="margin: 40px 0; display: flex; flex-wrap: wrap; justify-content: center; gap: 15px;">
-  <div class="button-container">
-    <a href="https://github.com/yakilophe/ProyectoFinal_ECA.git" class="pink-button">
-      <span class="button-text">Repositorio Principal</span>
-      <span class="button-icon">→</span>
-    </a>
-    <div class="button-desc">Accede al código fuente completo</div>
-  </div>
+  <a href="https://github.com/yakilophe/ProyectoFinal_ECA.git" style="
+    background: linear-gradient(135deg, #FF69B4, #FF1493);
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 220px;
+    box-shadow: 0 4px 15px rgba(255, 105, 180, 0.3);
+    transition: all 0.3s ease;
+    border: none;
+    position: relative;
+    overflow: hidden;
+  ">
+    <span style="flex-grow: 1; text-align: center;">Repositorio Principal</span>
+    <span style="margin-left: 10px; font-size: 18px;">→</span>
+  </a>
   
-  <div class="button-container">
-    <a href="https://github.com/yakilophe/ProyectoFinal_ECA/commits" class="pink-button">
-      <span class="button-text">Historial de Commits</span>
-      <span class="button-icon">↗</span>
-    </a>
-    <div class="button-desc">Revisa el progreso del proyecto</div>
-  </div>
+  <a href="https://github.com/yakilophe/ProyectoFinal_ECA/commits" style="
+    background: linear-gradient(135deg, #FF69B4, #FF1493);
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 220px;
+    box-shadow: 0 4px 15px rgba(255, 105, 180, 0.3);
+    transition: all 0.3s ease;
+    border: none;
+    position: relative;
+    overflow: hidden;
+  ">
+    <span style="flex-grow: 1; text-align: center;">Historial de Commits</span>
+    <span style="margin-left: 10px; font-size: 18px;">↗</span>
+  </a>
   
-  <div class="button-container">
-    <a href="https://raw.githack.com/yakilophe/ProyectoFinal_ECA/Testeo-InterfazWeb/scrumtablero.html" class="pink-button">
-      <span class="button-text">Tablero Scrum</span>
-      <span class="button-icon">📊</span>
-    </a>
-    <div class="button-desc">Tablero interactivo del proyecto</div>
-  </div>
+  <a href="https://raw.githack.com/yakilophe/ProyectoFinal_ECA/Testeo-InterfazWeb/scrumtablero.html" style="
+    background: linear-gradient(135deg, #FF69B4, #FF1493);
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 220px;
+    box-shadow: 0 4px 15px rgba(255, 105, 180, 0.3);
+    transition: all 0.3s ease;
+    border: none;
+    position: relative;
+    overflow: hidden;
+  ">
+    <span style="flex-grow: 1; text-align: center;">Tablero Scrum</span>
+    <span style="margin-left: 10px; font-size: 18px;">📊</span>
+  </a>
   
-  <div class="button-container">
-    <a href="https://github.com/yakilophe/ProyectoFinal_ECA/blob/main/proyecto_estructura_3er.pdf" class="pink-button">
-      <span class="button-text">Documentación PDF</span>
-      <span class="button-icon">📄</span>
-    </a>
-    <div class="button-desc">Documentación completa del proyecto</div>
-  </div>
+  <a href="https://github.com/yakilophe/ProyectoFinal_ECA/blob/main/proyecto_estructura_3er.pdf" style="
+    background: linear-gradient(135deg, #FF69B4, #FF1493);
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 220px;
+    box-shadow: 0 4px 15px rgba(255, 105, 180, 0.3);
+    transition: all 0.3s ease;
+    border: none;
+    position: relative;
+    overflow: hidden;
+  ">
+    <span style="flex-grow: 1; text-align: center;">Documentación PDF</span>
+    <span style="margin-left: 10px; font-size: 18px;">📄</span>
+  </a>
 </div>
 
 <style>
-.button-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 10px;
-}
-
-.pink-button {
-  background: linear-gradient(135deg, #FF69B4, #FF1493);
-  color: white;
-  padding: 14px 28px;
-  text-decoration: none;
-  border-radius: 8px;
-  font-weight: 600;
-  font-size: 16px;
-  border: none;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  min-width: 200px;
-  box-shadow: 0 4px 15px rgba(255, 105, 180, 0.3);
-  transition: all 0.3s ease;
-  position: relative;
-  overflow: hidden;
-}
-
-.pink-button:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 6px 20px rgba(255, 105, 180, 0.4);
-  background: linear-gradient(135deg, #FF1493, #FF69B4);
-}
-
-.pink-button:active {
-  transform: translateY(-1px);
-}
-
-.button-text {
-  flex-grow: 1;
-  text-align: left;
-}
-
-.button-icon {
-  margin-left: 10px;
-  font-size: 18px;
-  transition: transform 0.3s ease;
-}
-
-.pink-button:hover .button-icon {
-  transform: translateX(3px);
-}
-
-.button-desc {
-  margin-top: 5px;
-  font-size: 12px;
-  color: #666;
-  text-align: center;
-  max-width: 200px;
-}
-
-@media (max-width: 768px) {
-  .pink-button {
-    min-width: 180px;
-    padding: 12px 20px;
+  a:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(255, 105, 180, 0.4);
+    background: linear-gradient(135deg, #FF1493, #FF69B4);
   }
-}
+  
+  a:active {
+    transform: translateY(-1px);
+  }
+  
+  @media (max-width: 768px) {
+    a {
+      min-width: 180px;
+      padding: 14px 24px;
+    }
+  }
 </style>
 
 ---
