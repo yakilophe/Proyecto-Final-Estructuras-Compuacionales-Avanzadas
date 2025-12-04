@@ -32,6 +32,14 @@ El proyecto se desarrolló con **metodología ágil Scrum** en un sprint de una 
 
 ---
 
+## 🔗 Enlaces del proyecto  
+
+[![Ver Repositorio](https://img.shields.io/badge/📂_Repositorio_Principal-yakilophe/ProyectoFinal_ECA-8A2BE2?style=for-the-badge&logo=github&logoColor=white)](https://github.com/yakilophe/ProyectoFinal_ECA.git)
+[![Ver Commits](https://img.shields.io/badge/📜_Historial_de_Commits-Ver_todo_el_progreso-8A2BE2?style=for-the-badge&logo=git&logoColor=white)](https://github.com/yakilophe/ProyectoFinal_EA/commits/main)
+[![Tablero Scrum](https://img.shields.io/badge/📊_Tablero_Scrum_Interactivo-Acceder_al_tablero-8A2BE2?style=for-the-badge&logo=trello&logoColor=white)](https://github.com/yakilophe/ProyectoFinal_ECA/blob/Testeo-InterfazWeb/scrumtablero.html)
+
+---
+
 ## 🗂️ Estructura del repositorio  
 
 ```
@@ -54,12 +62,10 @@ ProyectoFinal_ECA/
 │   ├── test-kruskal.cpp
 │   ├── test-bipartito.cpp
 │   └── ...                       # Tests para cada algoritmo implementado
+├── scrumtablero.html             # Tablero Scrum interactivo
 ├── .github/workflows/            # CI/CD (si aplica)
 └── Makefile / CMakeLists.txt     # Sistema de compilación
 ```
-
-> **🔗 Enlace al repositorio:** [https://github.com/yakilophe/ProyectoFinal_ECA.git](https://github.com/yakilophe/ProyectoFinal_ECA.git)  
-> **📜 Rama de testeo:** [testeo/](https://github.com/yakilophe/ProyectoFinal_ECA/tree/testeo)  
 
 ---
 
@@ -174,7 +180,8 @@ El uso de **Scrum** permitió organizar el trabajo en un tiempo limitado, con ro
 
 ---
 
-**🔗 Repositorio:** [https://github.com/yakilophe/ProyectoFinal_ECA.git](https://github.com/yakilophe/ProyectoFinal_ECA.git)  
-**📌 Rama de pruebas:** [testeo/](https://github.com/yakilophe/ProyectoFinal_ECA/tree/testeo)  
+**🔗 Repositorio principal:** [https://github.com/yakilophe/ProyectoFinal_ECA.git](https://github.com/yakilophe/ProyectoFinal_ECA.git)  
+**📜 Historial de commits:** [Ver todos los commits](https://github.com/yakilophe/ProyectoFinal_EA/commits/main)  
+**📊 Tablero Scrum interactivo:** [scrumtablero.html](https://github.com/yakilophe/ProyectoFinal_ECA/blob/Testeo-InterfazWeb/scrumtablero.html)  
 
 *Proyecto desarrollado como parte de la materia Estructuras Computacionales Avanzadas, 2025.*
