@@ -2,7 +2,8 @@
 ### Universidad Autónoma de Aguascalientes
 ![Logo UAA](https://tse2.mm.bing.net/th/id/OIP.Z2oDAZiov9szKBOvWBnFMgHaHa?cb=ucfimg2&ucfimg=1&rs=1&pid=ImgDetMain&o=7&rm=3)
 
-[![Ver Repositorio](https://img.shields.io/badge/▶_Ver_Repositorio_GitHub-yakilophe/ProyectoFinal_ECA-3F5EFB?style=for-the-badge&logo=github&logoColor=white)](https://github.com/yakilophe/ProyectoFinal_ECA.git)
+[![Ver Repositorio](https://img.shields.io/badge/▶_Ver_Repositorio_GitHub-yakilophe/ProyectoFinal_ECA-FF69B4?style=for-the-badge&logo=github&logoColor=white)](https://github.com/yakilophe/ProyectoFinal_ECA.git)
+[![Ver Commits](https://img.shields.io/badge/📜_Ver_Commits_del_Proyecto-Historial_de_Cambios-FF69B4?style=for-the-badge&logo=git&logoColor=white)](https://github.com/yakilophe/ProyectoFinal_ECA/commits/main)
 
 ---
 
