@@ -1,6 +1,6 @@
 # Proyecto Estructuras Avanzadas Computacionales
 ### Universidad Autónoma de Aguascalientes
-![Logo UAA](https://www.uaa.mx/portal/wp-content/uploads/2018/10/Gallo.png)
+![Logo UAA](https://www.uaa.mx/portal/wp-content/uploads/2021/04/WALLPAPER-UAA-OFICIAL-cel_2-768x1365.jpg)
 
 [![Ver Repositorio](https://img.shields.io/badge/▶_Ver_Repositorio_GitHub-yakilophe/ProyectoFinal_ECA-3F5EFB?style=for-the-badge&logo=github&logoColor=white)](https://github.com/yakilophe/ProyectoFinal_ECA.git)
 
